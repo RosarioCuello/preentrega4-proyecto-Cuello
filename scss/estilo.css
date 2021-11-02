@@ -1,0 +1,686 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.fondoIndex {
+  background-color: #fdf3dd;
+  background-image: url(/img/justicia-derecho-estudio-juridico.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fondoSobre {
+  background-color: #fdf3dd;
+  background-image: url(/img/justicia-derecho-fondo-gris.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.principal, .contenedor, .contenedorNav {
+  background-color: #fdf3dd;
+  width: 95%;
+  margin: auto;
+}
+
+.contenedor, .contenedorNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.titulos, .titulo1, .tituloPracticas {
+  color: #255957;
+  font-family: 'Marcellus', serif;
+  margin: 20px auto;
+}
+
+.titulo1 {
+  font-size: 45px;
+  font-style: normal;
+  text-decoration: none;
+  text-align: right;
+  padding: 100px;
+}
+
+.imgMobile {
+  display: none;
+}
+
+.Sobre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.Sobre div p {
+  text-align: left;
+  margin: 20px;
+}
+
+.tituloSobre {
+  font-family: 'Marcellus', serif;
+  margin-top: 5%;
+  padding-left: 8%;
+  padding-bottom: 10%;
+  text-align: center;
+  display: inline-block;
+  width: 47.5%;
+}
+
+.Sobre1 {
+  background-color: #fdf3dd;
+  width: 47.5%;
+}
+
+.Sobre2 {
+  background-color: #fdf3dd;
+  width: 38%;
+  height: auto;
+  padding-top: 30px;
+}
+
+.Sobre3 {
+  padding-top: 0%;
+  background: #fdf3dd;
+}
+
+.Sobre3 p {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.Sobre3 img {
+  padding-left: 100px;
+}
+
+.tituloPracticas {
+  text-align: center;
+  padding: 30px;
+}
+
+.estiloPracticas {
+  width: 90%;
+  justify-items: center;
+  color: #3b1a0d;
+  font-family: 'Mako', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: center;
+  line-height: 200%;
+  margin: 20px;
+  padding: 15px;
+}
+
+.estiloPracticas h3 {
+  text-align: center;
+}
+
+.estiloPracticas ul {
+  list-style: none;
+  text-align: center;
+}
+
+.estiloPracticas h3:hover {
+  color: #6e4625;
+}
+
+.contenedorNovedades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 2rem;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.contenedorNovedades p {
+  text-align: justify;
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
+
+.novedades {
+  height: 346px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #664c4c;
+  background: radial-gradient(circle, white 0%, #b8b8b8 100%);
+}
+
+.novedades h1 {
+  font-size: 80px;
+  margin-top: 134px;
+  margin-left: 50px;
+  margin-right: 164px;
+  font-family: 'Marcellus', serif;
+}
+
+.enlacesNovedades ul {
+  text-decoration: none;
+  margin-left: 70px;
+  color: #e06025;
+  font-family: 'Mako', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: left;
+  line-height: 50px;
+  list-style-image: url(/img/star4.png);
+}
+
+.enlacesNovedades h4 {
+  margin-left: 35px;
+  font-family: 'Marcellus', serif;
+  font-size: 25px;
+}
+
+.videoNovedades {
+  width: 500px;
+  height: 315px;
+}
+
+.cardNovedades {
+  -webkit-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+}
+
+.cardNovedades:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.tituloc {
+  font-size: 55px;
+}
+
+.estiloContacto {
+  justify-items: center;
+  background-color: blanchedalmond;
+  -ms-grid-column-align: left;
+      justify-self: left;
+}
+
+.estiloContacto h4 {
+  color: blanchedalmond;
+  text-align: left;
+  font-size: 30px;
+  margin-top: 20%;
+  margin-left: 15px;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.listasContacto p {
+  color: #e06025;
+  margin-top: 0%;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Mako', sans-serif;
+}
+
+.listasContacto h3 {
+  margin-left: 40px;
+}
+
+.listasContacto ul {
+  list-style: none;
+  margin-left: 40px;
+}
+
+.listasContacto a {
+  text-decoration: none;
+  line-height: 40px;
+  font-family: 'Mako', sans-serif;
+}
+
+.enlacesRedes {
+  -webkit-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+}
+
+.enlacesRedes:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+/* formulario */
+.formcontacto {
+  width: 400px;
+  font-size: 15px;
+  font-family: 'Mako', sans-serif;
+  margin: 40px auto;
+}
+
+.formcontacto legend {
+  color: #255957;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+
+form label {
+  color: #255957;
+  font-family: 'Mako', sans-serif;
+  font-size: 18px;
+  padding: 20px auto;
+  margin: 10px;
+}
+
+input {
+  color: #6e4625;
+  border-radius: 8px;
+  border-style: double;
+  border-color: #255957;
+  background-color: #fdf4ed;
+  font-size: 15px;
+  padding: 5px;
+}
+
+textarea {
+  border: 1px solid #6e4625;
+  border-radius: 3px;
+  background-color: blanchedalmond;
+  margin: 8px;
+}
+
+select {
+  color: #255957;
+  background-color: blanchedalmond;
+  border-color: #255957;
+  border-radius: 20px;
+  font-family: 'Mako', sans-serif;
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .fondoInicio {
+    background-color: #fdf3dd;
+  }
+  h1 {
+    color: #255957;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fondoIndex {
+    background-image: none;
+    background-color: #000000d7;
+  }
+  .imgMobile {
+    display: block;
+  }
+  h1 {
+    color: #fdf3dd;
+    margin-left: 25%;
+  }
+  h2 {
+    color: #42817f;
+  }
+  .estiloFooter p {
+    color: #e05311;
+    margin-left: 50%;
+    margin-top: 20px;
+  }
+  .estiloFooter img {
+    margin-left: 80%;
+  }
+  .tituloSobre h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .Sobre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 20px auto;
+  }
+  .Sobre1 {
+    background-color: #fdf3dd;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 0%;
+  }
+  .Sobre2 {
+    background-color: #fdf3dd;
+    width: 100%;
+    margin-right: 0%;
+  }
+  .Sobre3 img {
+    width: 300px;
+    height: auto;
+    padding-left: 0%;
+    padding-right: 5%;
+  }
+  .tituloPracticas h1 {
+    color: #312018;
+    text-align: left;
+    font-size: 50px;
+  }
+  #carouselExampleInterval {
+    display: none;
+  }
+  .contenedorNovedades {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .novedades {
+    width: 100%;
+    margin: 20px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background: white;
+    background: radial-gradient(circle, white 0%, #b8b8b8 100%);
+  }
+  .novedades h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #312018;
+  }
+  .videoNovedades {
+    width: 350px;
+    height: auto;
+  }
+  .cardNovedades {
+    width: 150px;
+    height: auto;
+  }
+  .estiloFooter h4 {
+    display: none;
+  }
+  .tituloc {
+    font-size: 40px;
+  }
+  textarea {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .fondoInicio {
+    background-color: #fdf3dd;
+  }
+  h1 {
+    color: #255957;
+  }
+  .fondoSobre {
+    background-color: #fdf3dd;
+  }
+  h1 {
+    color: #255957;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .fondoInicio {
+    background-image: none;
+    background-color: #000000d7;
+  }
+  h1 {
+    color: #fdf3dd;
+  }
+  .fondoSobre {
+    background-image: none;
+    background-color: #000000d7;
+  }
+  h1 {
+    color: #fdf3dd;
+  }
+}
+
+body {
+  background-color: #fdf3dd;
+}
+
+body header {
+  width: 100%;
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fdf3dd;
+}
+
+body header .logo {
+  margin-left: 50px;
+  -webkit-transition: all 4s ease-in;
+  transition: all 4s ease-in;
+}
+
+body header .logo img {
+  width: 120px;
+}
+
+body header .logo:hover {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+body header nav {
+  color: #312018;
+  margin: 20px;
+  font-family: 'Mako', sans-serif;
+  font-size: 20px;
+}
+
+body header nav a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+body header nav a:hover {
+  font-weight: bold;
+}
+
+body main h2 {
+  color: #e06025;
+  font-family: 'Marcellus', serif;
+  font-size: 40px;
+  font-style: normal;
+  text-align: center;
+  padding: 15px;
+}
+
+body main h3 {
+  color: #e06025;
+  font-family: 'Mako', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding: 15px;
+}
+
+body main h4 {
+  color: #6e4625;
+  font-family: 'Mako', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: left;
+  padding: 15px;
+}
+
+body main .estiloParrafo {
+  color: #3b1a0d;
+  font-family: 'Mako', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: left;
+  line-height: 250%;
+  margin: 40px;
+  padding: 15px;
+}
+
+body main .parrafoSmall {
+  color: #3b1a0d;
+  font-family: 'Mako', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: left;
+  line-height: 200%;
+  margin: 20px;
+  padding: 15px;
+}
+
+body main .botonInicio {
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: 'Marcellus', serif;
+  font-weight: 650;
+  margin-left: 42%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 95%;
+  margin: 20px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 15px;
+  color: #255957;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-family: 'Marcellus', serif;
+  background-color: #fdf3dd;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer ul {
+  list-style: none;
+  padding: 20px;
+  line-height: 30px;
+  text-align: right;
+}
+
+body footer ul a {
+  text-decoration: none;
+}
+
+body footer p {
+  text-align: center;
+  font-weight: 600;
+}
+
+body footer img {
+  width: 130px;
+  margin-left: 40px;
+}
+
+body .estiloBread {
+  margin-left: 60px;
+  font-family: 'Mako', sans-serif;
+}
+/*# sourceMappingURL=estilo.css.map */

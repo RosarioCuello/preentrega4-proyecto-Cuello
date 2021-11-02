@@ -1,0 +1,29 @@
+.principal{
+    background-color: $bg-claro;
+    width: 95%;
+    margin: auto;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    @extend .principal;
+}
+.titulos{
+    color: $titulo-1;
+    font-family: 'Marcellus', serif;
+    margin: 20px auto;
+}
+.titulo1{
+    @extend .titulos;
+    font-size: 45px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: right;
+    padding: 100px;
+}
+.imgMobile{
+    display: none;
+}
+
+
